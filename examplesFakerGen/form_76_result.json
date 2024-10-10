@@ -1,0 +1,24 @@
+{
+    "form": "Medical Information Form",
+    "patient_information": {
+        "name": "Carolyn Miles DVM",
+        "date_of_birth": "1979-04-05",
+        "address": "77832 Walker Flat Suite 199, Lake Rebecca, SD 26401",
+        "phone_number": "713-422-3878",
+        "medical_history": [
+            {
+                "question": "Do you have any chronic illnesses?",
+                "answer": "No"
+            },
+            {
+                "question": "Are you currently taking any medication?",
+                "answer": "No"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "Yes"
+            }
+        ],
+        "signature": "Jane's Signature"
+    }
+}

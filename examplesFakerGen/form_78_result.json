@@ -1,0 +1,24 @@
+{
+    "form": "Medical Information Form",
+    "patient_information": {
+        "name": "Dr. Scott Ochoa",
+        "date_of_birth": "1947-08-11",
+        "address": "6747 Kenneth Mount Suite 617, Kellyshire, LA 14421",
+        "phone_number": "+1-506-670-8308x17252",
+        "medical_history": [
+            {
+                "question": "Do you have any chronic illnesses?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Are you currently taking any medication?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "No"
+            }
+        ],
+        "signature": "Jane's Signature"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "form": "Medical Information Form",
+    "patient_information": {
+        "name": "Stacy Smith",
+        "date_of_birth": "1943-10-26",
+        "address": "8069 Middleton Summit Apt. 396, East Aaron, CT 68282",
+        "phone_number": "(792)970-7759x393",
+        "medical_history": [
+            {
+                "question": "Do you have any chronic illnesses?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Are you currently taking any medication?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "Yes"
+            }
+        ],
+        "signature": "Jane's Signature"
+    }
+}

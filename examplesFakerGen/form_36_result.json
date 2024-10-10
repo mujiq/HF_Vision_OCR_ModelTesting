@@ -1,0 +1,24 @@
+{
+    "form": "Medical Information Form",
+    "patient_information": {
+        "name": "Daniel Walton",
+        "date_of_birth": "2001-02-14",
+        "address": "496 Evans Crest, Johnmouth, MT 95657",
+        "phone_number": "879-548-0877x34994",
+        "medical_history": [
+            {
+                "question": "Do you have any chronic illnesses?",
+                "answer": "No"
+            },
+            {
+                "question": "Are you currently taking any medication?",
+                "answer": "No"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "No"
+            }
+        ],
+        "signature": "Jane's Signature"
+    }
+}

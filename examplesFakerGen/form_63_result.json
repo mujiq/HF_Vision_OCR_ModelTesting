@@ -1,0 +1,24 @@
+{
+    "form": "Medical Information Form",
+    "patient_information": {
+        "name": "Sharon Bishop",
+        "date_of_birth": "1977-09-01",
+        "address": "353 Jeremy Ramp Suite 255, West Mitchell, UT 70610",
+        "phone_number": "3742353355",
+        "medical_history": [
+            {
+                "question": "Do you have any chronic illnesses?",
+                "answer": "No"
+            },
+            {
+                "question": "Are you currently taking any medication?",
+                "answer": "No"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "No"
+            }
+        ],
+        "signature": "Jane's Signature"
+    }
+}

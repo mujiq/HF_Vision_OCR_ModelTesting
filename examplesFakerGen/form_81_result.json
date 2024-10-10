@@ -1,0 +1,24 @@
+{
+    "form": "Medical Information Form",
+    "patient_information": {
+        "name": "Joseph Mcdowell",
+        "date_of_birth": "1990-02-06",
+        "address": "8287 Bradley Grove Suite 454, Port David, OR 04488",
+        "phone_number": "001-648-895-2500x6295",
+        "medical_history": [
+            {
+                "question": "Do you have any chronic illnesses?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Are you currently taking any medication?",
+                "answer": "No"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "Yes"
+            }
+        ],
+        "signature": "Jane's Signature"
+    }
+}

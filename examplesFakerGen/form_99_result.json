@@ -1,0 +1,24 @@
+{
+    "form": "Medical Information Form",
+    "patient_information": {
+        "name": "Lauren Davis",
+        "date_of_birth": "1954-05-20",
+        "address": "Unit 7149 Box 0601, DPO AE 43268",
+        "phone_number": "337-804-0959",
+        "medical_history": [
+            {
+                "question": "Do you have any chronic illnesses?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Are you currently taking any medication?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "Yes"
+            }
+        ],
+        "signature": "Jane's Signature"
+    }
+}

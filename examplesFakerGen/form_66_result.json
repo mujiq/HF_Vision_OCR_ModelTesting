@@ -1,0 +1,24 @@
+{
+    "form": "Medical Information Form",
+    "patient_information": {
+        "name": "Amy Baker",
+        "date_of_birth": "2002-12-11",
+        "address": "05609 Hodge Orchard Apt. 125, New Adam, MO 87692",
+        "phone_number": "001-787-476-0730x516",
+        "medical_history": [
+            {
+                "question": "Do you have any chronic illnesses?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Are you currently taking any medication?",
+                "answer": "No"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "No"
+            }
+        ],
+        "signature": "Jane's Signature"
+    }
+}

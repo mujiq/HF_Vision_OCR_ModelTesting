@@ -1,0 +1,24 @@
+{
+    "form": "Medical Information Form",
+    "patient_information": {
+        "name": "Mrs. Taylor Hernandez",
+        "date_of_birth": "1955-12-07",
+        "address": "9809 Carl Street, New Stephanie, MA 88588",
+        "phone_number": "220.843.7238x25792",
+        "medical_history": [
+            {
+                "question": "Do you have any chronic illnesses?",
+                "answer": "No"
+            },
+            {
+                "question": "Are you currently taking any medication?",
+                "answer": "No"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "Yes"
+            }
+        ],
+        "signature": "Jane's Signature"
+    }
+}

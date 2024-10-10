@@ -1,0 +1,24 @@
+{
+    "form": "Medical Information Form",
+    "patient_information": {
+        "name": "Angela Chang",
+        "date_of_birth": "1980-07-04",
+        "address": "4248 Campbell Mews Suite 169, New Johnstad, GA 08686",
+        "phone_number": "353.617.8465x154",
+        "medical_history": [
+            {
+                "question": "Do you have any chronic illnesses?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Are you currently taking any medication?",
+                "answer": "No"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "No"
+            }
+        ],
+        "signature": "Jane's Signature"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "form": "Medical Information Form",
+    "patient_information": {
+        "name": "Angela Torres",
+        "date_of_birth": "1964-09-26",
+        "address": "5521 Thomas Lakes, Brandonbury, NC 98600",
+        "phone_number": "308-501-1248x21973",
+        "medical_history": [
+            {
+                "question": "Do you have any chronic illnesses?",
+                "answer": "No"
+            },
+            {
+                "question": "Are you currently taking any medication?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Do you have any allergies?",
+                "answer": "No"
+            }
+        ],
+        "signature": "Jane's Signature"
+    }
+}
