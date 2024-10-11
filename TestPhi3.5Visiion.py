@@ -8,6 +8,9 @@ print(os.environ.get('CUDA_PATH'))
 model_id = "microsoft/Phi-3.5-vision-instruct"
 model_name = "Phi-3.5-vision-instruct"
 
+#model_id = "microsoft/Phi-3-vision-128k-instruct"
+#model_name = "Phi-3.5-vision-128k-instruct"
+
 model = AutoModelForCausalLM.from_pretrained(
   model_id,
   device_map="cuda",
@@ -189,15 +192,16 @@ with open(output_csv, mode='w', newline='') as csv_file:
 
                     messages = [
                         {"role": "user",
-                         "content": placeholder + f"Extract information from this form image, provide output in the following strict json format. {json_template}"},
+                         "content": placeholder + f"Extract information from this form image, provide output in the following strict json format. donot add any extra response or json tag {json_template}"},
                     ]
 
                     actual_response = generate_response(messages, images)
+                    inference_time = time.time() - start_time
+
 
                     score = util_json.calculatecosingsimilarity(expected_response, actual_response)
                     print(f'User: {messages[0]}\nAssistant: {actual_response}\nScore: {score}\n')
 
-                    inference_time = time.time() - start_time
 
                     # Convert the JSON data to a string
                     json_str = json.dumps(actual_response)
