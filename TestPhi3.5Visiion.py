@@ -5,11 +5,11 @@ import torch
 import os
 print(os.environ.get('CUDA_PATH'))
 
-model_id = "microsoft/Phi-3.5-vision-instruct"
-model_name = "Phi-3.5-vision-instruct"
+#model_id = "microsoft/Phi-3.5-vision-instruct"
+#model_name = "Phi-3.5-vision-instruct"
 
-#model_id = "microsoft/Phi-3-vision-128k-instruct"
-#model_name = "Phi-3.5-vision-128k-instruct"
+model_id = "microsoft/Phi-3-vision-128k-instruct"
+model_name = "Phi-3.5-vision-128k-instruct"
 
 model = AutoModelForCausalLM.from_pretrained(
   model_id,
